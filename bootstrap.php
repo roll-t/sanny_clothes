@@ -15,10 +15,13 @@ $web_root=$web_root.'/'.$folder;
 
 define('_WEB_ROOT',$web_root);
 
-
 require_once 'configs/database.php';
 
 require_once 'core/connect.php';
+
+require_once 'core/DB.php';
+
+require_once 'core/Response.php';
 
 require_once 'core/Controller.php'; 
 
